@@ -1,0 +1,22 @@
+@import 'variables';
+
+h1 {
+    color: $green-text;
+}
+
+a {
+    text-decoration: none !important;
+    // color: #000 !important;
+}
+
+.list-pro {
+    display: flex;
+}
+
+.checkbox-select-all-options {
+    width: 16rem;
+}
+
+.card {
+    border-color: #f7f7f7;
+}

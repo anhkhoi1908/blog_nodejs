@@ -1,0 +1,42 @@
+<nav class='navbar navbar-dark navbar-expand-lg bg-dark'>
+    <a class='navbar-brand' href='/'>Education</a>
+    {{! <button
+        class='navbar-toggler'
+        type='button'
+        data-toggle='collapse'
+        data-target='#navbarSupportedContentn'
+        aria-controls='navbarSupportedContent'
+        aria-expanded='false'
+        aria-label='Toggle navigation'
+    >
+        <span class='navbar-toggler-icon'></span>
+    </button> }}
+    <div class='collapse navbar-collapse' id='navbarSupportedContent'>
+        <ul class='navbar-nav ml-auto mb-2 mb-lg-0 d-flex align-items-center'>
+            <li class='nav-item'>
+                <i class='fa-solid fa-bell text-white mr-3' style='font-size: 1.2rem; cursor: pointer'></i>
+            </li>
+            <li class='nav-item dropdown'>
+                <a class='nav-link dropdown-toggle' href='#' role='button' data-toggle='dropdown' aria-expanded='false'>
+                    <img
+                        src='https://th.bing.com/th/id/OIP.tmkXK-PzDel9Lt70isKosQAAAA?pid=ImgDet&w=182&h=303&c=7&dpr=1.3'
+                        alt='admin-avatar'
+                        class='img-avatar'
+                    />
+                </a>
+                <div class='dropdown-menu'>
+                    <a class='dropdown-item' href='#'>Trang cá nhân</a>
+                    <a class='dropdown-item' href='/me/stored/courses'>Quản lý khóa học</a>
+                    <div class='dropdown-divider'></div>
+                    <a class='dropdown-item' href='#'>Cài đặt</a>
+                    <a class='dropdown-item' href='#'>Đăng xuất</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+</nav>
+
+<style>
+    .img-avatar { width: 2rem; height: 2rem; border-radius: 50%; } .dropdown-menu { right: 0 !important; left: -140%}
+</style>
